@@ -11,12 +11,12 @@
 @mixin secondary-button {
     background: none;
     text-transform: uppercase;
-    text-decoration: underline;
     padding: 0px;
     border: none;
     margin: 5px;
     border-radius: 5px;
-    color: #1c3a5e;
+    font-size: 2rem;
+    color: #ffffff;
 }
 
 @mixin main-headings {
@@ -25,6 +25,7 @@
     font-style: normal;
     font-optical-sizing: auto;
     font-size: 5rem;  
+    color: rgb(242, 239, 234);
 }
 
 @mixin second-headings {
