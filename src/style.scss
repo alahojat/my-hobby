@@ -2,8 +2,7 @@
 
 
 body {
-    header {
-        
+    header { 
         position: fixed;
         margin: 100px;
         nav {
@@ -50,7 +49,7 @@ body {
 
 
 .photoPage {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,12 +67,13 @@ body {
 .imgContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1000px; 
     margin: 10px auto; 
     
     img {
         width: 500px;
+        height: auto;
         border: 2px solid black;
     }
 }

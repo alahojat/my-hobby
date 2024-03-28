@@ -109,8 +109,9 @@ function printPhotoPage() {
     let photoPageTitle = document.createElement('h2');
     photoPageTitle.innerText = "photography";
 
-    // printImages
-    photoPage.append(goBackBtn, photoPageTitle);
+    let photoImagesContainer = printImagesByCategory('photography');
+
+    photoPage.append(goBackBtn, photoPageTitle, photoImagesContainer);
     photoContainer.append(photoPage);
     
 }
