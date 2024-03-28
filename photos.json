@@ -7,6 +7,13 @@
     "category": "photography"
   },
   {
+    "name": "model 5",
+    "source": "./photography/model-5.jpg",
+    "alt": "Portrait of model in white top in the woods",
+    "loading": "lazy",
+    "category": "photography"
+  },
+  {
     "name": "band playing",
     "source": "./photography/band-playing.jpg",
     "alt": "Black and white picture of jazzband playing",
@@ -55,13 +62,7 @@
     "loading": "lazy",
     "category": "photography"
   },
-  {
-    "name": "model 5",
-    "source": "./photography/model-5.jpg",
-    "alt": "Portrait of model in white top in the woods",
-    "loading": "lazy",
-    "category": "photography"
-  },
+
   {
     "name": "model 6",
     "source": "./photography/model-6.jpg",
