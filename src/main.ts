@@ -1,6 +1,9 @@
 import './style.css'
 
 let homePageContainer: HTMLElement = document.getElementById('homePageContainer')!;
+let artContainer: HTMLElement = document.getElementById('artContainer')!;
+let photoContainer: HTMLElement = document.getElementById('photoContainer')!;
+
 
 
 function appendHomePageHtml() {
@@ -29,18 +32,58 @@ homePageContainer.append(homePage);
 
 }
 
+function goBackToHomePageBtn() {
+    printHomePage();
+    artContainer.innerHTML = "";
+}
+
 function printArtPage() {
     console.log("printing artpage");
+    homePageContainer.innerHTML = "";
+
+    let goBackBtn: HTMLElement = document.createElement('button');
+    goBackBtn.innerText = "Home";
+    goBackBtn.classList.add('goBackBtn');
+    goBackBtn.addEventListener('click', goBackToHomePageBtn)
+
+    let artPage = document.createElement('div');
+    artPage.classList.add('artPage'); 
     
+    let artPageTitle = document.createElement('h2');
+    artPageTitle.innerText = "mixed media";
+
+    // printImages
+    artPage.append(goBackBtn, artPageTitle);
+    artContainer.append(artPage);
 }
+
+
 
 function printPhotoPage() {
     console.log("printing photopage");
+    homePageContainer.innerHTML = "";
+
+    let goBackBtn: HTMLElement = document.createElement('button');
+    goBackBtn.innerText = "Home";
+    goBackBtn.classList.add('goBackBtn');
+    goBackBtn.addEventListener('click', goBackToHomePageBtn);
+
+    let photoPage = document.createElement('div');
+    photoPage.classList.add('photoPage'); 
+    
+    let photoPageTitle = document.createElement('h2');
+    photoPageTitle.innerText = "photography";
+
+    // printImages
+    photoPage.append(goBackBtn, photoPageTitle);
+    photoContainer.append(photoPage);
     
 }
 
 
 function printHomePage() {
+    artContainer.innerHTML = "";
+    photoContainer.innerHTML = "";
     appendHomePageHtml();
     console.log("hej");
 
