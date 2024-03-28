@@ -1,11 +1,13 @@
 @mixin primary-button {
-    background-color: 	#7bb5bb;
+    font-size: 3rem;
     text-transform: uppercase;
-    padding: 10px 20px 10px 20px;
+    font-style: italic;
+    background: none;
+    position: fixed;
     border: none;
     margin: 5px;
-    border-radius: 15px;
-    color: black;
+    border-radius: 10px;
+    color: rgb(111, 233, 30);
 }
 
 @mixin secondary-button {
@@ -25,7 +27,7 @@
     font-style: normal;
     font-optical-sizing: auto;
     font-size: 5rem;  
-    color: rgb(242, 239, 234);
+    color: rgb(222, 223, 226);
 }
 
 @mixin second-headings {
@@ -42,4 +44,12 @@
     border: none;
     margin: 5px;
     border-radius: 10px;
+}
+
+@mixin page-position {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    
 }
