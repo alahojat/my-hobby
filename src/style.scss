@@ -36,25 +36,28 @@ body {
     background-position: center;
     align-items: center;
     height: 100vh;
+    h1 {
+        @include main-headings;
+    }
+    button {
+        @include secondary-button;
+    }
 }
 
 .artPage {
-    background-color: rgb(238, 74, 74);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
+    @include page-position;
+    button {
+        @include primary-button;
+    }
     
 }
 
 
 .photoPage {
-    background-color: rgb(255, 255, 255);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
- 
+    @include page-position;
+    button {
+        @include primary-button;
+    }
 }
 
 
