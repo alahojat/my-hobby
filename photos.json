@@ -1,5 +1,12 @@
 [
   {
+    "name": "Model 10",
+    "source": "src/assets/photography/model-10.jpg",
+    "alt": "Portrait of woman in black top with head stretched back",
+    "loading": "lazy",
+    "category": "photography"
+  },
+  {
     "name": "band playing",
     "source": "src/assets/photography/band-playing.jpg",
     "alt": "Black and white picture of jazzband playing",
@@ -80,13 +87,6 @@
     "name": "model 9",
     "source": "src/assets/photography/model-9.jpg",
     "alt": "Black and white upclose portrait of woman with eyes closed",
-    "loading": "lazy",
-    "category": "photography"
-  },
-  {
-    "name": "Model 10",
-    "source": "src/assets/photography/model-10.jpg",
-    "alt": "Portrait of woman in black top with head stretched back",
     "loading": "lazy",
     "category": "photography"
   },

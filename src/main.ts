@@ -88,7 +88,7 @@ function printArtPage() {
 
     let artImagesContainer = printImagesByCategory('art');
 
-    artPage.append(goBackBtn, artPageTitle, artImagesContainer);
+    artPage.append(artPageTitle, goBackBtn, artImagesContainer);
     artContainer.append(artPage);
 }
 
@@ -111,7 +111,7 @@ function printPhotoPage() {
 
     let photoImagesContainer = printImagesByCategory('photography');
 
-    photoPage.append(goBackBtn, photoPageTitle, photoImagesContainer);
+    photoPage.append(photoPageTitle, goBackBtn, photoImagesContainer);
     photoContainer.append(photoPage);
     
 }
