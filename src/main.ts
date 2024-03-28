@@ -4,6 +4,19 @@ let homePageContainer: HTMLElement = document.getElementById('homePageContainer'
 let artContainer: HTMLElement = document.getElementById('artContainer')!;
 let photoContainer: HTMLElement = document.getElementById('photoContainer')!;
 
+import photoData from '../photos.json';
+
+
+interface Photo {
+    name: string;
+    source: string;
+    alt: string;
+    loading: string;
+    category: string;
+}
+
+
+let photos: Photo[] = photoData;
 
 
 function appendHomePageHtml() {
@@ -35,6 +48,27 @@ homePageContainer.append(homePage);
 function goBackToHomePageBtn() {
     printHomePage();
     artContainer.innerHTML = "";
+    photoContainer.innerHTML = "";
+}
+
+function printImagesByCategory(category: string) { 
+    let images = photos.filter(photo => photo.category === category);
+    let container = document.createElement('div');
+    container.classList.add('container');
+
+    images.forEach(image => {
+        const imgContainer = document.createElement('div');
+        imgContainer.classList.add('imgContainer');
+        
+        const img = document.createElement('img');
+        img.src = image.source;
+        img.alt = image.alt;
+
+        imgContainer.appendChild(img); 
+        container.appendChild(imgContainer); 
+    });
+
+    return container;
 }
 
 function printArtPage() {
@@ -52,8 +86,9 @@ function printArtPage() {
     let artPageTitle = document.createElement('h2');
     artPageTitle.innerText = "mixed media";
 
-    // printImages
-    artPage.append(goBackBtn, artPageTitle);
+    let artImagesContainer = printImagesByCategory('art');
+
+    artPage.append(goBackBtn, artPageTitle, artImagesContainer);
     artContainer.append(artPage);
 }
 
