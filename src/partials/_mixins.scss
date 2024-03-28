@@ -1,13 +1,25 @@
 @mixin primary-button {
-    font-size: 3rem;
+    font-family: "DM Sans", sans-serif;
+    background-color: white;
+    font-size: 4.6rem;
     text-transform: uppercase;
     font-style: italic;
-    background: none;
     position: fixed;
     border: none;
     margin: 5px;
-    border-radius: 10px;
+    padding: 0 40px;
     color: rgb(111, 233, 30);
+
+    &:hover {
+        color: #1a2cb3;
+        cursor: crosshair;
+    }
+
+    @media (hover: none) {
+        &:active {
+            color: #1a2cb3;
+        }
+    }
 }
 
 @mixin secondary-button {
@@ -19,10 +31,16 @@
     border-radius: 5px;
     font-size: 2rem;
     color: #ffffff;
+
+    &:hover {
+        color: #1a2cb3;
+        cursor: crosshair;
+    }
 }
 
 @mixin main-headings {
     font-family: "Kaisei Tokumin", serif;
+    text-transform: lowercase;
     font-weight: 700;
     font-style: normal;
     font-optical-sizing: auto;

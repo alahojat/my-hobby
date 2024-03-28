@@ -4,7 +4,7 @@
 body {
     header { 
         position: fixed;
-        margin: 100px;
+        margin: 40px auto auto 40px;
         nav {
             flex-direction: row;
             button {
@@ -18,6 +18,9 @@ body {
     }
 
     footer {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
         width: 100%;
         background-color: #1a2cb3; 
         color: #fff;
@@ -25,6 +28,10 @@ body {
         position: fixed;
         bottom: 0;
         left: 0;
+        text-align: center;
+        justify-content: center;
+        font-family: "DM Sans", sans-serif;
+        text-transform: uppercase;
     }
 }
 
@@ -47,7 +54,14 @@ body {
 .artPage {
     @include page-position;
     button {
+        top: 20px;
         @include primary-button;
+    }
+    h2 {
+        @include second-headings;
+        position: absolute;
+        top: 20px; 
+        right: 20px;
     }
     
 }
@@ -56,12 +70,21 @@ body {
 .photoPage {
     @include page-position;
     button {
+        top: 20px;
         @include primary-button;
+    }
+    h2 {
+        @include second-headings;
+        position: absolute;
+        top: 20px; 
+        right: 20px;
     }
 }
 
 
 .container {
+    padding-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -77,6 +100,6 @@ body {
     img {
         width: 500px;
         height: auto;
-        border: 2px solid black;
+        border: 4px solid black;
     }
 }
