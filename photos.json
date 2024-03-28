@@ -1,126 +1,126 @@
 [
   {
     "name": "Model 10",
-    "source": "public/photography/model-10.jpg",
+    "source": "/photography/model-10.jpg",
     "alt": "Portrait of woman in black top with head stretched back",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "band playing",
-    "source": "public/photography/band-playing.jpg",
+    "source": "/photography/band-playing.jpg",
     "alt": "Black and white picture of jazzband playing",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "crowd",
-    "source": "public/photography/crowd.jpg",
+    "source": "/photography/crowd.jpg",
     "alt": "Black and white picture of a crwd at a protest",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "banana tree",
-    "source": "public/photography/banana-tree.jpg",
+    "source": "/photography/banana-tree.jpg",
     "alt": "Black and white picture of a banana tree",
     "loading": "lazy",
     "category": "test"
   },
   {
     "name": "model 1",
-    "source": "public/photography/model-1.jpg",
+    "source": "/photography/model-1.jpg",
     "alt": "Portrait of model with burgundy lips",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "model 2",
-    "source": "public/photography/model-2.jpg",
+    "source": "/photography/model-2.jpg",
     "alt": "Portrait of model with curly blonde hair smiling",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "model 3",
-    "source": "public/photography/model-3.jpg",
+    "source": "/photography/model-3.jpg",
     "alt": "Portrait of model with blue light shining on face",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "model 4",
-    "source": "public/photography/model-4.jpg",
+    "source": "/photography/model-4.jpg",
     "alt": "Portrait of model in white top with green plants",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "model 5",
-    "source": "public/photography/model-5.jpg",
+    "source": "/photography/model-5.jpg",
     "alt": "Portrait of model in white top in the woods",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "model 6",
-    "source": "public/photography/model-6.jpg",
+    "source": "/photography/model-6.jpg",
     "alt": "Portrait of model in limegreen dress against blue backdrop",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "model 7",
-    "source": "public/photography/model-7.jpg",
+    "source": "/photography/model-7.jpg",
     "alt": "Black and white portrait of model in nature",
     "loading": "lazy",
     "category": "test"
   },
   {
     "name": "woman on bike",
-    "source": "public/photography/woman-on-bike.jpg",
+    "source": "/photography/woman-on-bike.jpg",
     "alt": "Cropped picture of a woman in black clothes on a moped",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "model 9",
-    "source": "public/photography/model-9.jpg",
+    "source": "/photography/model-9.jpg",
     "alt": "Black and white upclose portrait of woman with eyes closed",
     "loading": "lazy",
     "category": "photography"
   },
   {
     "name": "Blue monstera",
-    "source": "public/art/blue-monstera-leaf.jpg",
+    "source": "/art/blue-monstera-leaf.jpg",
     "alt": "Monstera leaf painted cobalt blue against white backdrop",
     "loading": "lazy",
     "category": "art"
   },
   {
     "name": "Brown paint",
-    "source": "public/art/brown-paints.jpg",
+    "source": "/art/brown-paints.jpg",
     "alt": "Shades of brown ink paints against white backdrop",
     "loading": "lazy",
     "category": "art"
   },
   {
     "name": "Illustration",
-    "source": "public/art/face-illustration.jpg",
+    "source": "/art/face-illustration.jpg",
     "alt": "Illustration in pencil of womans face",
     "loading": "lazy",
     "category": "art"
   },
   {
     "name": "Orange paint",
-    "source": "publicc/art/orange-paint.jpg",
+    "source": "/art/orange-paint.jpg",
     "alt": "Illustration in pencil of womans face",
     "loading": "lazy",
     "category": "art"
   },
   {
     "name": "White monstera leaf",
-    "source": "public/art/white-monstera-leaf.jpg",
+    "source": "/art/white-monstera-leaf.jpg",
     "alt": "Monstera leaf painted white against white backdrop",
     "loading": "lazy",
     "category": "art"
